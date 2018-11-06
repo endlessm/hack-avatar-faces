@@ -19,7 +19,8 @@
                 }
             ],
             "build-commands": [
-                "install -m644 hack-avatar-faces/* /app/hack-avatar-faces"
+                "install -d /app/hack-avatar-faces/faces",
+                "install -m644 hack-avatar-faces/* /app/hack-avatar-faces/faces"
             ]
         }
     ]
