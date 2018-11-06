@@ -1,0 +1,26 @@
+{
+    "app-id": "com.endlessm.HackAvatarFaces.Extension",
+    "branch": "@BRANCH@",
+    "runtime": "com.endlessm.HackComponents",
+    "runtime-version": "@BRANCH@",
+    "sdk": "com.endlessm.apps.Sdk//5",
+    "appstream-compose": false,
+    "separate-locales": false,
+    "build-extension": true,
+    "modules": [
+        {
+            "name": "hack-avatar-faces",
+            "buildsystem": "simple",
+            "sources": [
+                {
+                    "type": "git",
+                    "path": ".",
+                    "branch": "@GIT_CLONE_BRANCH@"
+                }
+            ],
+            "build-commands": [
+                "install -m644 hack-avatar-faces/* /app/hack-avatar-faces"
+            ]
+        }
+    ]
+}
