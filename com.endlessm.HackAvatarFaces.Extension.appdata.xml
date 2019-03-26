@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="addon">
-  <id>com.endlessm.HackAvatarFaces.extension</id>
+  <id>com.endlessm.HackAvatarFaces.Extension</id>
   <extends>com.endlessm.HackComponents</extends>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
