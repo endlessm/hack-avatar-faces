@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>com.endlessm.HackAvatarFaces.extension</id>
+  <extends>com.endlessm.HackComponents</extends>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <categories>
+    <category>Game</category>
+  </categories>
+  <name>Avatar Faces</name>
+  <summary>Faces for Hack user profiles</summary>
+
+  <description><p></p></description>
+
+  <url type="homepage">https://hack-computer.com/</url>
+
+  <releases>
+    <release date="2019-03-25" version="0.0.0"/>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+
+  <update_contact>hack@endlessm.com</update_contact>
+</component>

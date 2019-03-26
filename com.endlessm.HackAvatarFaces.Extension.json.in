@@ -20,7 +20,9 @@
             ],
             "build-commands": [
                 "install -d /app/hack-avatar-faces/faces",
-                "install -m644 hack-avatar-faces/* /app/hack-avatar-faces/faces"
+                "install -m644 hack-avatar-faces/* /app/hack-avatar-faces/faces",
+                "install -Dm644 com.endlessm.HackAvatarFaces.Extension.appdata.xml /app/hack-avatar-faces/share/appdata/com.endlessm.HackAvatarFaces.Extension.appdata.xml",
+                "appstream-compose --basename=com.endlessm.HackAvatarFaces.Extension --prefix=${FLATPAK_DEST} --origin=flatpak com.endlessm.HackAvatarFaces.Extension"
             ]
         }
     ]
